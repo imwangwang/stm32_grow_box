@@ -1,0 +1,13 @@
+---- TM_USART_Gets Matches (8 in 3 files) ----
+STM32-DEMO.htm (output):<BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TM_USART_Gets
+STM32-DEMO.htm (output):<BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TM_USART_Gets
+STM32-DEMO.htm (output):<BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TM_USART_Gets
+STM32-DEMO.htm (output):<BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TM_USART_Gets
+STM32-DEMO.htm (output):<P><STRONG><a name="[b7]"></a>TM_USART_Gets</STRONG> (Thumb, 82 bytes, Stack size 20 bytes, tm_stm32f4_usart.o(.text), UNUSED)
+Tm_stm32f4_usart.c (tm_stm32fusart):uint16_t TM_USART_Gets(USART_TypeDef* USARTx, char* buffer, uint16_t bufsize) {
+Tm_stm32f4_usart.h (tm_stm32fusart): *	- TM_USART_Gets now returns 0 till '\n' is not available in buffer or buffer is full
+Tm_stm32f4_usart.h (tm_stm32fusart):extern uint16_t TM_USART_Gets(USART_TypeDef* USARTx, char* buffer, uint16_t bufsize);
+---- TM_FATFS_USB_disk_read Matches (3 in 3 files) ----
+Diskio.c (tm_stm32ffatfs\fatfs):				status = TM_FATFS_USB_disk_read(buff, sector, count);			/* USB */
+Fatfs_usb.c (tm_stm32ffatfs\fatfs\drivers):DRESULT TM_FATFS_USB_disk_read (
+Fatfs_usb.h (tm_stm32ffatfs\fatfs\drivers):extern DRESULT TM_FATFS_USB_disk_read(BYTE* buff, DWORD sector, UINT count);
